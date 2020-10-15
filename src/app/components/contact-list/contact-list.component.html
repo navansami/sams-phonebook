@@ -1,0 +1,16 @@
+<table class="table stripped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let contact of contactList">
+            <td> {{ contact.name }} </td>
+            <td> {{ contact.mobile }} </td>
+            <td> {{ contact.email }} </td>
+        </tr>
+    </tbody>
+</table>

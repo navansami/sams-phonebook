@@ -1,0 +1,32 @@
+<h3>Add New Contact</h3>
+<form  (ngSubmit)="submitForm($event)">
+    <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input 
+            class="form-control"
+            type="text" 
+            id="fullName" 
+            placeholder="Enter Full Name">
+    </div>
+    <div class="form-group">
+        <label for="mobile">Mobile Number</label>
+        <input 
+            class="form-control"
+            type="text" 
+            id="mobile" 
+            placeholder="Enter Mobile"
+        />
+    </div>
+    <div class="form-group">
+        <label for="fullName">Email Address</label>
+        <input 
+            class="form-control"
+            type="email" 
+            id="email" 
+            placeholder="Enter Email"
+        />
+    </div>
+    <div class="form-group">
+        <button class="btn btn-dark btn-block">Add</button>
+    </div>
+</form>
